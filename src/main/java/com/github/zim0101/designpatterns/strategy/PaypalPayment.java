@@ -8,6 +8,10 @@ public class PaypalPayment implements PaymentStrategy {
 
     @Override
     public void processPayment(double amount) {
+        // payment related validations
+        // payment related api calls
+        // payment related business logic
+        // payment related database operations
         logger.info("Processing $: " + amount + " via Paypal");
     }
 }
